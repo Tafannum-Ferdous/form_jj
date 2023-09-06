@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg {
+
+    background: linear-gradient(45deg,#00dbde,#fc00ff);
+    min-height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px; 
+    background-attachment: fixed;
+}
+
+.main_form {
+    width: 30%;
+    margin: auto;
+    background-color: rgb(255 255 255 / 35%);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.main_form h1 {
+    font-family: Poppins-Bold;
+    font-size: 39px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.form {
+}
+
+.form form input {
+    width: 100%;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 3;
+    padding: 0px 5px;
+    background: 0px 0px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.form form label{
+
+padding-bottom: 20px;
+
+font-size: 13px;
+}
+
+.form form select{
+    width: 100%;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 3;
+    padding-top: 15px;
+    padding: 0px 5px;
+    background: 0px 0px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-top: 15px;
+}
+
+
+.form form option{
+    
+}
+.btn{
+    width: 100%;
+    background: linear-gradient(45deg,#00dbde,#fc00ff);
+    color: rgb(255, 255, 255);
+    padding: 15px 25px;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+    text-transform:capitalize;
+    cursor: pointer;
+    transition: all 1s ease-in-out 0s;
+}
+.btn:hover{
+    
+    background: linear-gradient(45deg,#01b5b8,#e504e9);
+}
+.btn i{
+    transition: all 1s ease-in-out 0s;
+}
+.btn:hover i{
+    margin-left: 3px;
+}
+.form form textarea {
+    width: 100%;
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 0.5;
+    padding-top: 15px;
+    background: 0px 0px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.form form input:focus, .form form textarea:focus {
+    outline: none;
+}
+
+.form form input::placeholder{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Poppins, sans-serif;
+}
+.form form textarea::placeholder{
+    color: rgb(230, 230, 230);
+    font-size: 17px;
+    font-family: Poppins, sans-serif;
+}
